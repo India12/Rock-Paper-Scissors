@@ -1,2 +1,3 @@
 # Rock-Paper-Scissors - Game (JS)
+https://india12.github.io/Rock-Paper-Scissors/
 ...not yet finished...
