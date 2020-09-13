@@ -10,15 +10,15 @@ const result_h2 = document.getElementById('result');
   
 
 // 4. create computerSelection function
-function computerChoice () {
+function computerPlay () {
     const options = ['rock', 'paper', 'scissors'];
     return options[Math.floor(Math.random() * options.length)];
 }
 
-// 3./5.create playRound function with playerSelection argument 
+// 3./5.create game function with playerSelection argument 
 //that comes from eventlistener
-function playRound (playerSelection, computerSelection) {
-    computerSelection = computerChoice();
+function game (playerSelection, computerSelection) {
+    computerSelection = computerPlay();
     document.getElementById("computerChoice").innerHTML =  computerSelection; 
     document.getElementById("userChoice").innerHTML =  playerSelection; 
 
@@ -77,16 +77,16 @@ function playRound (playerSelection, computerSelection) {
     
 }
 // 2. create function and add an event listener on buttons
-// then put a function in it (create this function - playRound() ) 
+// then put a function in it (create this function - game() ) 
 function main () {
     rock_btn.addEventListener("click", function (){
-        playRound("rock");
+        game("rock");
     });
     paper_btn.addEventListener("click", function (){
-        playRound("paper");
+        game("paper");
     });
     scissors_btn.addEventListener("click", function (){
-        playRound("scissors");
+        game("scissors");
     });
 }
 main();
