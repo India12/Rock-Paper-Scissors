@@ -39,7 +39,7 @@ function game (playerSelection, computerSelection) {
             result.textContent = "It's a draw!";
             break
     }
-    /*
+    /* OR:
     if (computerSelection === playerSelection) {
         result.textContent = "It is a tie";
         return;
