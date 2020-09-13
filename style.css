@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+}
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid gray;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: rgb(199, 193, 193);
+}
+.score p {
+    margin: 10px;
+}
+.btns {
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    margin: 16px 16px 16px 16px;
+}
+.btn {
+    margin: 5px;
+}
+h4, h3 {
+    margin-top: 20px;
+}
+h3 {
+    margin-bottom: 20px;
+}
+.result {
+    border: 2px solid gray;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: rgb(199, 193, 193);
+}
